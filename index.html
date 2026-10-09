@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#263c32">
+    <title>A Letter from Farel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="world">
+        <div class="sun"></div>
+        <div class="cloud cloud-one"></div>
+        <div class="cloud cloud-two"></div>
+        <div class="mountains"></div>
+        <div class="pixel-particles" id="particles"></div>
+        <div class="ground"></div>
+    </div>
+
+    <div class="topbar">
+        <div class="pixel-logo">
+            <span class="logo-icon">F</span>
+            <span>FAREL.EXE</span>
+        </div>
+        <div class="world-status">
+            <span class="status-dot"></span>
+            A LITTLE WORLD FOR YOU
+        </div>
+    </div>
+
+    <main>
+        <!-- HALAMAN PEMBUKA -->
+        <section class="screen opening active" id="opening">
+            <div class="intro-label">
+                <span class="tiny-square"></span>
+                A PERSONAL NOTE BY FAREL
+                <span class="tiny-square"></span>
+            </div>
+
+            <h1 class="hero-title">
+                a little<br>
+                <span>letter</span> for you.
+            </h1>
+
+            <p class="hero-description">
+                beberapa hal yang tidak bisa aku sampaikan<br>
+                hanya dengan percakapan biasa.
+            </p>
+
+            <div class="pixel-envelope-wrap">
+                <div class="pixel-spark spark-one">✦</div>
+                <div class="pixel-spark spark-two">✧</div>
+
+                <button class="envelope-button" id="openEnvelope"
+                        aria-label="Buka amplop surat">
+                    <div class="envelope-shadow"></div>
+                    <div class="envelope">
+                        <div class="envelope-back"></div>
+                        <div class="letter-inside">
+                            <span class="letter-lines"></span>
+                            <span class="letter-lines"></span>
+                            <span class="letter-lines short"></span>
+                        </div>
+                        <div class="envelope-front"></div>
+                        <div class="envelope-flap"></div>
+                        <div class="wax-seal">A</div>
+                    </div>
+                </button>
+
+                <p class="click-hint" id="clickHint">
+                    [ KLIK UNTUK MEMBUKA ]
+                </p>
+            </div>
+
+            <div class="bottom-note">
+                <span>✦</span> made with sincerity for A <span>✦</span>
+            </div>
+        </section>
+
+        <!-- HALAMAN SURAT -->
+        <section class="screen letter-screen" id="letterScreen">
+            <div class="page-heading">
+                <span class="pixel-tag">ITEM OBTAINED</span>
+                <h2>sebuah surat.</h2>
+                <p class="page-subtitle">a message that was waiting to be read</p>
+            </div>
+
+            <article class="letter-paper">
+                <div class="paper-top">
+                    <span class="paper-icon">✦</span>
+                    <span>PRIVATE LETTER</span>
+                    <span class="paper-icon">✦</span>
+                </div>
+
+                <div class="letter-body">
+                    <p>aku pernah berpikir bahwa manusia jatuh cinta karena kelebihan seseorang. karena parasnya, kecerdasannya, atau caranya memperlakukan dunia seolah-olah dunia selalu punya alasan untuk tersenyum.</p>
+
+                    <p>ternyata aku keliru.</p>
+
+                    <p>sebab, semakin lama aku mengenalmu, semakin banyak hal kecil yang kutemukan. caramu bercerita tentang sesuatu yang menurutmu menarik, caramu menanggapi hal-hal sepele, bahkan caramu menjadi dirimu sendiri tanpa sibuk meminta dunia untuk menyukaimu.</p>
+
+                    <p>anehnya, aku tidak pernah berniat menghafal semua itu. tapi entah bagaimana, pikiranku menyimpannya tanpa diminta.</p>
+
+                    <p>barangkali begitulah cara hati bekerja. ia tidak selalu memilih sesuatu yang paling sempurna, melainkan sesuatu yang membuat ketidaksempurnaan terasa tidak perlu dipersoalkan.</p>
+
+                    <p>dan sekarang aku mengerti mengapa ada orang yang rela menghabiskan waktu hanya untuk mendengarkan seseorang bercerita tentang harinya. bukan karena ceritanya luar biasa, melainkan karena suara yang menyampaikannya membuat hal biasa terasa layak dikenang.</p>
+
+                    <p>aku tidak tahu akan jadi apa kita nanti. aku juga tidak ingin mendahului waktu dengan memberi nama pada sesuatu yang bahkan belum selesai kita pahami.</p>
+
+                    <p>aku hanya ingin mengenalmu lebih jauh, tanpa terburu-buru menyimpulkan akhir ceritanya.</p>
+
+                    <p>terkadang, aku bertanya-tanya tentang bagaimana keberadaanku di matamu. apakah kehadiranku masih terasa biasa saja, atau justru mulai mengusik ruang nyamanmu? apakah aku memang seseorang yang pantas untuk tetap berada di dekatmu, atau hanya seseorang yang terlalu jauh melangkah tanpa tahu batasnya?</p>
+
+                    <p>aku tidak pernah benar-benar tahu bagaimana kamu memandangku. sebab di antara keinginanku untuk tetap ada dan ketakutanku menjadi beban, aku sering kali tidak tahu harus bersikap seperti apa. aku hanya berharap, keberadaanku tidak pernah menjadi sesuatu yang sebenarnya ingin kau hindari, tetapi terlalu sungkan untuk kamu ungkapkan.</p>
+
+                    <p>sebab ada satu hal yang baru kusadari: selama ini aku selalu mengira bahwa alasan seseorang istimewa adalah karena ia berbeda dari yang lain.</p>
+
+                    <p>ternyata, bukan itu.</p>
+
+                    <p>kamu tidak harus menjadi berbeda dari siapa pun untuk menjadi istimewa. kamu hanya perlu menjadi dirimu sendiri, lalu entah bagaimana, duniaku yang tadinya biasa saja jadi punya alasan untuk memperhatikanmu.</p>
+                </div>
+
+                <div class="letter-signature">
+                    <span>ditulis dengan tulus,</span>
+                    <strong>— Farel</strong>
+                </div>
+
+                <div class="paper-bottom">END OF PAGE 01</div>
+            </article>
+
+            <button class="pixel-button" id="continueButton">
+                <span>LANJUTKAN</span>
+                <span class="button-arrow">▶</span>
+            </button>
+
+            <p class="small-hint">there is still something left to say...</p>
+        </section>
+
+        <!-- HALAMAN TERIMA KASIH -->
+        <section class="screen thanks-screen" id="thanksScreen">
+            <div class="thank-icon">
+                <div class="heart-pixel">♥</div>
+                <span class="icon-spark">✦</span>
+                <span class="icon-spark second">✧</span>
+            </div>
+
+            <span class="pixel-tag">A LITTLE THANK YOU</span>
+            <h2>terima kasih,<br><span>untuk semuanya.</span></h2>
+
+            <div class="thanks-paper">
+                <p>Terima kasih atas setiap percakapan, atas waktu yang telah dibagikan, atas hal-hal sederhana yang mungkin tidak pernah kamu anggap istimewa, dan atas kesempatan untuk mengenalmu lebih jauh.</p>
+
+                <p>Terima kasih karena sudah hadir. Kamu tidak perlu melakukan sesuatu yang luar biasa untuk membuat kehadiranmu berarti.</p>
+
+                <p>Aku tidak tahu ke mana waktu akan membawa kita. Namun, apa pun bentuk akhirnya nanti, aku tetap bersyukur pernah sampai pada bagian hidup ini dan menemukanmu di dalamnya.</p>
+            </div>
+
+            <button class="pixel-button" id="endingButton">
+                <span>FINAL MESSAGE</span>
+                <span class="button-arrow">▶</span>
+            </button>
+        </section>
+
+        <!-- HALAMAN PENUTUP -->
+        <section class="screen ending-screen" id="endingScreen">
+            <div class="ending-stars">✦　✧　✦</div>
+
+            <div class="ending-card">
+                <span class="pixel-tag">ACHIEVEMENT UNLOCKED</span>
+                <div class="achievement-icon">★</div>
+
+                <h2>terima kasih<br>telah hadir.</h2>
+
+                <div class="pixel-divider">
+                    <span></span><span></span><span></span>
+                    <span></span><span></span><span></span>
+                </div>
+
+                <p class="ending-quote">
+                    "Some people become a meaningful part of our lives without ever intending to."
+                </p>
+
+                <p class="final-message">
+                    Terima kasih sudah menjadi bagian dari ceritaku.
+                </p>
+
+                <div class="final-signature">— Farel</div>
+            </div>
+
+            <p class="end-caption">WORLD SAVED · THANK YOU FOR PLAYING</p>
+
+            <button class="restart-button" id="restartButton">
+                ↻ PLAY AGAIN
+            </button>
+        </section>
+    </main>
+
+    <!-- MUSIK LATAR -->
+    <audio id="music" src="./Tulus_-_Monokrom_(mp3.pm).mp3" loop preload="auto"></audio>
+    
+    <div class="music-control">
+        <span class="music-bars" id="musicBars">♫</span>
+        <button id="musicButton" aria-label="Putar atau jeda musik">
+            MUSIC: OFF
+        </button>
+    </div>
+
+    <div class="progress-track">
+        <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
